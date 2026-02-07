@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Profesyonel trading eğitimi. Risk yönetimi, teknik analiz ve strateji geliştirme." />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Strateji Akademi — Profesyonel Trading Eğitimi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-blob blob-a"></div>
+  <div class="bg-blob blob-b"></div>
+  <div class="noise"></div>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="chip chip-warn" style="flex-shrink:0">YASAL</span>
+      <p style="flex:1;min-width:0">
+        Bu platform <strong>yatırım tavsiyesi</strong> vermez. İçerikler eğitim amaçlıdır.
+        Profesyonel risk yönetimi ve strateji metodolojisi öğretilir.
+      </p>
+      <a class="topbar-link" href="#legal" style="flex-shrink:0">Detay</a>
+    </div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ana sayfa">
+        <span class="brand-mark">SA</span>
+        <span class="brand-text">
+          <span class="brand-name">Strateji Akademi</span>
+          <span class="brand-tag">Profesyonel Trading Eğitimi</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Menü">
+        <a href="#about">Hakkında</a>
+        <a href="#content">İçerik</a>
+        <a href="#contact">İletişim</a>
+        <a href="#faq">SSS</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn ghost sm" href="redeem.html">Giriş Yap</a>
+        <a class="btn primary sm" href="#contact">İletişime Geç</a>
+
+        <button class="burger" aria-label="Mobil menü" aria-expanded="false" data-burger>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="drawer" data-drawer aria-hidden="true">
+      <div class="drawer-panel">
+        <div class="drawer-top">
+          <div class="brand mini">
+            <span class="brand-mark">SA</span>
+            <span class="brand-text">
+              <span class="brand-name">Strateji Akademi</span>
+              <span class="brand-tag">Pro Trading</span>
+            </span>
+          </div>
+          <button class="icon-btn" aria-label="Kapat" data-close>✕</button>
+        </div>
+
+        <a class="drawer-link" href="#about">Hakkında</a>
+        <a class="drawer-link" href="#content">İçerik</a>
+        <a class="drawer-link" href="#contact">İletişim</a>
+        <a class="drawer-link" href="#faq">SSS</a>
+
+        <div class="drawer-cta">
+          <a class="btn ghost block" href="redeem.html">Giriş Yap</a>
+          <a class="btn primary block" href="#contact">İletişime Geç</a>
+        </div>
+      </div>
+      <div class="drawer-backdrop" data-close></div>
+    </div>
+  </header>
+
+  <div class="sticky-cta" data-sticky-cta>
+    <div class="container sticky-cta-inner">
+      <div class="sticky-left">
+        <div class="tiny">Profesyonel Trading Eğitimi</div>
+        <div class="tiny muted">Tek Paket • Ömür Boyu Erişim</div>
+      </div>
+      <div class="sticky-right">
+        <a class="btn ghost sm" href="redeem.html">Giriş</a>
+        <a class="btn primary sm" href="#contact">İletişim</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="kicker">
+          <span class="chip chip-ok">Kişisel Eğitim</span>
+          <span class="kicker-text">1-on-1 • Öz İçerik • Gerçek Deneyim</span>
+        </div>
+
+        <h1>
+          Trading'i <span class="grad">doğru</span> öğren.<br/>
+          Sade, etkili, kişisel.
+        </h1>
+
+        <p class="lead">
+          Gereksiz teori yok. Sadece <strong>işe yarayan bilgi</strong>.
+          Risk yönetimi, teknik analiz ve piyasa psikolojisi — tek eğitimde.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary lg" href="#contact">Bilgi Al</a>
+          <button class="btn ghost lg" data-modal-open="preview">Ön İzleme</button>
+        </div>
+
+        <div class="proof reveal">
+          <div class="proof-card">
+            <div class="proof-big">✓</div>
+            <div class="proof-small">Ömür boyu erişim</div>
+          </div>
+          <div class="proof-card">
+            <div class="proof-big">✓</div>
+            <div class="proof-small">Öz içerik, boş laf yok</div>
+          </div>
+          <div class="proof-card">
+            <div class="proof-big">✓</div>
+            <div class="proof-small">Kişisel anlatım</div>
+          </div>
+        </div>
+
+        <div class="logo-row reveal">
+          <span class="logo-chip">RİSK YÖNETİMİ</span>
+          <span class="logo-chip">TEKNİK ANALİZ</span>
+          <span class="logo-chip">PSİKOLOJİ</span>
+          <span class="logo-chip">UYGULAMA</span>
+        </div>
+
+        <p class="micro muted">
+          Finansal piyasalar risk içerir. Geçmiş performans geleceği garanti etmez.
+        </p>
+      </div>
+
+      <aside class="hero-card reveal">
+        <div class="hero-card-top">
+          <span class="chip chip-info">Tek Paket</span>
+          <h3>Tüm İçerik • Ömür Boyu</h3>
+          <p class="muted">Tüm dersler tek seferde açık. İstediğin sırayla izle, tekrarla.</p>
+        </div>
+
+        <div class="hero-price">
+          <div style="text-align:center;padding:20px 0">
+            <div style="font-size:20px;font-weight:900;margin-bottom:8px">Fiyat Bilgisi İçin</div>
+            <div class="muted">Telegram veya TikTok'tan iletişime geç</div>
+          </div>
+        </div>
+
+        <div class="mini-list">
+          <div class="mini-item">
+            <span class="mini-icon">✓</span>
+            <div><strong>Risk Yönetimi</strong><span class="muted">Position sizing, stop-loss, sermaye koruma</span></div>
+          </div>
+          <div class="mini-item">
+            <span class="mini-icon">✓</span>
+            <div><strong>Teknik Analiz</strong><span class="muted">Gerçekten işe yarayan araçlar</span></div>
+          </div>
+          <div class="mini-item">
+            <span class="mini-icon">✓</span>
+            <div><strong>Piyasa Psikolojisi</strong><span class="muted">Duygusal kararlardan kaçınma</span></div>
+          </div>
+          <div class="mini-item">
+            <span class="mini-icon">✓</span>
+            <div><strong>Gerçek Örnekler</strong><span class="muted">Canlı piyasa analizleri</span></div>
+          </div>
+        </div>
+
+        <div class="card-note muted micro">
+          Ömür boyu erişim • DRM korumalı videolar
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section alt" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <h2>Neden bu eğitim farklı?</h2>
+          <p class="muted">Gereksiz teori, saatlerce doldurma içerik yok. Sadece öz bilgi.</p>
+        </div>
+      </div>
+
+      <div class="grid3">
+        <div class="feature reveal">
+          <div class="feature-icon">🎯</div>
+          <h3>Öz İçerik</h3>
+          <p class="muted">
+            Her video direkt konuya giriyor. Boş laf, doldurma yok. 
+            Sadece ihtiyacın olan bilgi.
+          </p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="feature-icon">👤</div>
+          <h3>Kişisel Anlatım</h3>
+          <p class="muted">
+            Ben anlatıyorum. Gerçek deneyimlerimi, hatalarımı, 
+            öğrendiklerimi paylaşıyorum.
+          </p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="feature-icon">♾️</div>
+          <h3>Ömür Boyu Erişim</h3>
+          <p class="muted">
+            Bir kez alıyorsun, sonsuza kadar senin. İstediğin zaman,
+            istediğin kadar tekrar izle.
+          </p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="feature-icon">📊</div>
+          <h3>Risk Odaklı</h3>
+          <p class="muted">
+            "Kaç para kazanırım?" yerine "Nasıl kaybetmem?" sorusuna
+            odaklanıyoruz. Risk yönetimi her şeyin temeli.
+          </p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="feature-icon">🔒</div>
+          <h3>Tek Cihaz Güvenliği</h3>
+          <p class="muted">
+            İçerik korunuyor. Tek cihazda kullanım, DRM korumalı
+            videolar. Paylaşım yok.
+          </p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="feature-icon">💬</div>
+          <h3>Direkt İletişim</h3>
+          <p class="muted">
+            Telegram veya TikTok'tan direkt ulaşabilirsin. 
+            Sorularını sorabilirsin.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="content">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>İçerik Neler Var?</h2>
+        <p class="muted">Tüm dersler tek pakette. Sırayla ya da istediğin yerden başla.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="module-card reveal">
+          <div class="module-num">01</div>
+          <h3>Risk Yönetimi Temelleri</h3>
+          <p class="muted">Position sizing, stop-loss mantığı, sermaye koruma. Trading'in %80'i burası.</p>
+          <div class="module-meta">
+            <span class="chip chip-ok">Temel</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-num">02</div>
+          <h3>Teknik Analiz - İşe Yarayanlar</h3>
+          <p class="muted">100 indikatör değil, 3-4 etkili araç. Support, resistance, trend, volume.</p>
+          <div class="module-meta">
+            <span class="chip chip-ok">Temel</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-num">03</div>
+          <h3>Piyasa Psikolojisi</h3>
+          <p class="muted">FOMO, panic selling, revenge trading. En büyük düşman: sen.</p>
+          <div class="module-meta">
+            <span class="chip chip-info">Önemli</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-num">04</div>
+          <h3>Giriş ve Çıkış Stratejileri</h3>
+          <p class="muted">Ne zaman giriyorsun? Nerede çıkıyorsun? Plan olmadan işlem yok.</p>
+          <div class="module-meta">
+            <span class="chip chip-warn">İleri</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-num">05</div>
+          <h3>Portföy Yönetimi</h3>
+          <p class="muted">Tüm paran bir hissede olmamalı. Diversification, correlation, rebalancing.</p>
+          <div class="module-meta">
+            <span class="chip chip-warn">İleri</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-num">06</div>
+          <h3>Gerçek Piyasa Örnekleri</h3>
+          <p class="muted">Canlı analizler, geçmiş trade'lerin incelemesi, neler ters gitti, neler doğru.</p>
+          <div class="module-meta">
+            <span class="chip chip-warn">Uygulama</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="strip reveal" style="margin-top:40px">
+        <div>
+          <h3>Tüm içerik tek seferde senin</h3>
+          <p class="muted">Sıralı modül kilidi yok. İstediğin yerden başla, istediğin kadar tekrarla.</p>
+        </div>
+        <a class="btn primary" href="#contact">Bilgi Al</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>İletişim</h2>
+        <p class="muted">Fiyat bilgisi, kayıt ve sorularınız için direkt ulaşın.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a href="https://t.me/yourusername" target="_blank" class="contact-card reveal">
+          <div class="contact-icon">📱</div>
+          <h3>Telegram</h3>
+          <p class="muted">En hızlı iletişim kanalı. Direkt mesaj atın.</p>
+          <div class="btn ghost" style="margin-top:12px;pointer-events:none">@yourusername</div>
+        </a>
+
+        <a href="https://www.tiktok.com/@yourusername" target="_blank" class="contact-card reveal">
+          <div class="contact-icon">🎵</div>
+          <h3>TikTok</h3>
+          <p class="muted">Kısa içerikler ve güncellemeler için takip edin.</p>
+          <div class="btn ghost" style="margin-top:12px;pointer-events:none">@yourusername</div>
+        </a>
+      </div>
+
+      <div class="info-box reveal">
+        <h4>Kayıt Süreci</h4>
+        <div class="muted" style="line-height:1.8">
+          <strong>1.</strong> Telegram veya TikTok'tan iletişime geçin<br/>
+          <strong>2.</strong> Fiyat bilgisini alın ve ödeme yapın<br/>
+          <strong>3.</strong> Size özel lisans kodu gönderilir<br/>
+          <strong>4.</strong> Kodu kullanarak platforma giriş yapın<br/>
+          <strong>5.</strong> Tüm içeriğe ömür boyu erişim
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Sıkça Sorulan Sorular</h2>
+        <p class="muted">Merak edilen konular.</p>
+      </div>
+
+      <div class="faq reveal">
+        <details open>
+          <summary>Fiyat ne kadar?</summary>
+          <div class="acc-body">
+            Fiyat bilgisi için Telegram veya TikTok'tan iletişime geçmeniz gerekiyor. 
+            Tek paket var, ömür boyu erişim dahil.
+          </div>
+        </details>
+
+        <details>
+          <summary>Para iadesi var mı?</summary>
+          <div class="acc-body">
+            Hayır, para iadesi politikamız yok. Bu yüzden satın almadan önce içerik hakkında 
+            tüm sorularınızı sormaktan çekinmeyin.
+          </div>
+        </details>
+
+        <details>
+          <summary>Kaç saat video var?</summary>
+          <div class="acc-body">
+            İçerik "saate" göre değil "öze" göre hazırlandı. Boş laf yok, her video direkt konuya giriyor.
+            Toplam içerik sürekli güncelleniyor.
+          </div>
+        </details>
+
+        <details>
+          <summary>Tek cihaz kilidi ne demek?</summary>
+          <div class="acc-body">
+            Lisans kodunuz sadece bir cihazda kullanılabilir. Bu hem içeriği korumak hem de 
+            paylaşımı engellemek için. Cihaz değişikliği için iletişime geçebilirsiniz.
+          </div>
+        </details>
+
+        <details>
+          <summary>Soru sorabilir miyim?</summary>
+          <div class="acc-body">
+            Evet, Telegram üzerinden sorularınızı sorabilirsiniz. Mümkün olduğunca 
+            herkese dönüş yapmaya çalışıyorum.
+          </div>
+        </details>
+
+        <details>
+          <summary>İçerik güncellenecek mi?</summary>
+          <div class="acc-body">
+            Evet. Platform sürekli güncelleniyor. Yeni dersler, piyasa analizleri ekleniyor. 
+            Tüm güncellemelere ömür boyu erişiminiz var.
+          </div>
+        </details>
+
+        <details>
+          <summary>Hiç bilgim yok, başlayabilir miyim?</summary>
+          <div class="acc-body">
+            Kesinlikle. İçerik sıfırdan başlıyor. Ama bu "sıradan giriş" değil, 
+            direkt önemli konulara odaklanıyoruz.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="legal">
+    <div class="container">
+      <div class="legal reveal">
+        <h3>Yasal Uyarı ve Risk Bildirimi</h3>
+        <p class="muted">
+          Bu platform yatırım danışmanlığı hizmeti sunmamaktadır. Tüm içerikler eğitim amaçlıdır
+          ve SPK lisansı gerektiren yatırım tavsiyesi niteliğinde değildir. Finansal piyasalar
+          yüksek risk içerir ve sermaye kaybına yol açabilir. Geçmiş performans, gelecek
+          performansın garantisi değildir. Yatırım kararları tamamen sizin sorumluluğunuzdadır.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="foot-left">
+        <div class="brand mini">
+          <span class="brand-mark">SA</span>
+          <span class="brand-text">
+            <span class="brand-name">Strateji Akademi</span>
+            <span class="brand-tag">Profesyonel Trading</span>
+          </span>
+        </div>
+        <p class="muted micro">© 2026 • Eğitim amaçlı içerik.</p>
+      </div>
+      <div class="foot-right">
+        <a href="#top">Yukarı</a>
+        <a href="#contact">İletişim</a>
+        <a href="redeem.html">Giriş</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" data-modal="preview" aria-hidden="true">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-card" role="dialog" aria-label="Ön İzleme">
+      <button class="icon-btn modal-close" data-modal-close aria-label="Kapat">✕</button>
+      <h3>İçerik Ön İzleme</h3>
+      <p class="muted">Eğitimin nasıl olduğunu görmek için örnek video.</p>
+
+      <div class="video-ph">
+        <div class="video-ph-badge">ÖN İZLEME</div>
+        <div class="video-ph-title">Risk Yönetimi Giriş</div>
+        <div class="video-ph-sub muted">İlk dersten kısa bir kesit...</div>
+      </div>
+
+      <div class="modal-cta">
+        <a class="btn primary" href="#contact">Bilgi Al</a>
+        <button class="btn ghost" data-modal-close>Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
